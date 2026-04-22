@@ -5,18 +5,18 @@ if cn == ps .upper():
 else:
     print ("Contraseña incorrecta ")
 
-print ("--------------------------------------------------------")
+print ("----------------------------------------------------------------------------------------------------------------------")
 
 
 nom = input("ingrese su nombre de usuario: ")
-if len(nom)>4:
+if len(nom)<4:
     print("debe ser como minimo 4 carcteres")
-elif len (nom)<10:
+elif len (nom)>10:
     print ("Error el limte es de 10 caracteres")
 else:
     print("Usuario creado de manera correcta")
 
-print ("--------------------------------------------------------------------------------------------------------------------")
+print ("-----------------------------------------------------------------------------------------------------------------------")
 
 
 pn= int(input("Ingrese el pin: "))
