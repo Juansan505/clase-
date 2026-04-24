@@ -1,0 +1,15 @@
+pt1= input("Ingrese el nombre del postulante 1")
+pt2= input("Ingrese el nombre del postulante 2")
+v1=0 
+v2= 0
+num=int(input("Ingrese la cantidad de botantes: "))
+for i in range(num):
+    voto=int(input(f"Por quien votara, 1.-{pt1} 2.-{pt2} "))
+    if voto== 1:
+        v1+= 1 
+    elif voto== 2:
+        v2+= 2 
+if v1>v2:
+    print("EL postulante 1 es el ganador: ")
+else:
+    print("El ganador es el postulante 2 ")
